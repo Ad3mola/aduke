@@ -83,14 +83,14 @@ body {
 filter: grayscale(20%);
 transform: scale(1.1);
 }
-#image{
+a #image{
     padding: 5px;
     transition: 1s;
 }
 @media (max-width: 767.98px) {
     #secondPage a{
         color: #161d20;
-        font-size: 0.6em;
+        font-size: 0.9em;
     }
     #small img{
         height: 100%;
