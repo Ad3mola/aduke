@@ -1,0 +1,134 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+
+body {
+    background-image:linear-gradient(60deg, rgba(173, 62, 62, 0.425) 5%, rgba(64, 116, 228, 0.534)), url("images/bg.jpg");
+    color: #414f57;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    background-size: contain;
+    height: 100%;
+}
+#link a:hover{
+    font-size: 15pt;
+    color: black;
+}
+#link2 a:hover{
+    font-size: 11pt;
+}
+#secondPage a:hover{
+    font-size: 11pt;
+    color: black;
+}
+#secondPage a{
+    color: #161d20;
+    font-size: 10pt;
+    font-weight: bold;
+}
+#icons a{
+    color: #161d20;
+    font-size: 12pt;
+}
+#icons li{
+    display: inline;
+    padding: 5px;
+}
+#icons a:hover{
+    color: #161d20;
+    font-size: 14pt;
+}
+
+#icons1 a{
+    color: #161d20;
+}
+#icons1 li{
+    display: inline;
+}
+.active{
+    font-weight: bold;
+}
+#wrapper:before{
+    content: "";
+    display: block;
+    width: 38%;
+    height: 1px;
+    background: #778892;
+    position: absolute;
+    left:0;
+    top:25%;
+}
+#wrapper:after{
+    content: "";
+    display: block;
+    width: 38%;
+    height: 1px;
+    background: #778892;
+    position: absolute;
+    right:0;
+    top:25%;
+}
+
+#main{
+    height: 100%;
+}
+#card2{
+    padding-top:3%;
+}
+#small a #image:hover{
+filter: grayscale(20%);
+transform: scale(1.1);
+}
+#image{
+    padding: 5px;
+    transition: 1s;
+}
+@media (max-width: 767.98px) {
+    #secondPage a{
+        color: #161d20;
+        font-size: 0.6em;
+    }
+    #small img{
+        height: 100%;
+        width:100%;
+    }
+    #inline li a{
+        letter-spacing: 0;
+    }
+    a{
+        display: inline;
+    }
+    #wrapper:before{
+        content: "";
+        display: block;
+        width: 25%;
+        height: 1px;
+        background: #778892;
+        position: absolute;
+        left:0;
+        top:25%;
+    }
+    #wrapper:after{
+        content: "";
+        display: block;
+        width: 25%;
+        height: 1px;
+        background: #778892;
+        position: absolute;
+        right:0;
+        top:25%;
+    }
+    ul li{
+        display: block;
+    }
+    .span{
+        display: none;
+    }
+    #card2{
+        padding-top:0;
+    }
+  }

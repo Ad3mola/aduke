@@ -1,0 +1,15 @@
+{
+  "name": "facesbyaduke",
+  "version": "1.0.0",
+  "description": "A make-up portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ademola Madelewi",
+  "license": "ISC",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "materialize-css": "^1.0.0"
+  }
+}
