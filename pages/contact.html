@@ -1,67 +1,102 @@
 <!DOCTYPE html>
-<html lang="en" style="height: 100%">
+<html lang="en" style="height: 100%;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/materialize.min.css" />
+    <link
+      rel="stylesheet"
+      href="../css/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>faces | by Aduke</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/materialize.min.css">
-    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>faces|by Aduke</title>
-</head>
-
-<body>
-    <div class="container-fluid" style="font-size: 10pt" id="secondPage">
-        <ul id="icons1" class="right">
-            <li><a href="#">Twitter</a></li>
-            <span>|</span>
-            <li><a href="#">Instagram</a></li>
-        </ul>
-        <div class="row">
-                <div class="col s2 m5">
-                    <ul class="side-nav"  id="slide-out color" id="inline" style="letter-spacing: 0.15em;">
-                        <img class="card-image circle responsive-img" id="image" src="../images/1.JPG" alt="" height="30px"
-                            width="40px">
-                        <li style="display: inline"><a href="../index.html">Home</a></li>
-                        <span class="span">|</span>
-                        <li style="display: inline"><a href="contact.html">contact</a></li>
-                    </ul>
-                    <a href="" data-activates="slide-out" class="button-collapse"></a>
-                </div>
-                </div>
+  <body>
+    <div class="container-fluid" style="font-size: 10pt;" id="secondPage">
+      <ul id="icons1" class="right">
+        <li><a href="#">Twitter</a></li>
+        <span>|</span>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+      <div class="row">
+        <div class="col s2 m5">
+          <ul
+            class="side-nav"
+            id="slide-out color"
+            id="inline"
+            style="letter-spacing: 0.15em;"
+          >
+            <img
+              class="card-image circle responsive-img"
+              id="image"
+              src="../images/1.JPG"
+              alt=""
+              height="30px"
+              width="40px"
+            />
+            <li style="display: inline;"><a href="../index.html">Home</a></li>
+            <span class="span">|</span>
+            <li style="display: inline;"><a href="work.html">Portfolio</a></li>
+          </ul>
+          <a href="" data-activates="slide-out" class="button-collapse"></a>
+        </div>
+      </div>
     </div>
     <div class="container">
-        <div class="container" style="opacity: 0.95" id="card2">
-            <div class="card center-align">
-                <div class="card-content" id="link2">
-                    <p style="font-weight: bold; margin-bottom: 30px; font-size: 1.4em">get in touch!</p>
-                    <form name="facesform" method="POST" action="./success.html" data-netlify="true">
-                        <div class="input-field">
-                            <input type="text" name="name" id="name" required>
-                            <label for="name" class="active">Name</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="email" name="email" id="email" class="validate" required>
-                            <label for="email" class="active">email</label>
-                        </div>
-                        <div class="input-field">
-                            <textarea type="message" name="message" id="message" class="materialize-textarea validate"
-                                required></textarea>
-                            <label for="message" class="active">message</label>
-                        </div>
-                        <div class="input-field">
-                            <div data-netlify-recaptcha="true"></div>
-                        </div>
-                        <div class="input-field">
-                            <input type="submit" class="btn waves-effect waves-light black">
-                        </div>
-                    </form>
-                </div>
-            </div>
+      <div class="container" style="opacity: 0.95;" id="card2">
+        <div class="card center-align">
+          <div class="card-content" id="link2">
+            <p
+              style="font-weight: bold; margin-bottom: 30px; font-size: 1.4em;"
+            >
+              get in touch!
+            </p>
+            <form
+              name="facesform"
+              method="POST"
+              action="./success.html"
+              data-netlify="true"
+            >
+              <div class="input-field">
+                <input type="text" name="name" id="name" required />
+                <label for="name" class="active">Name</label>
+              </div>
+              <div class="input-field">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="validate"
+                  required
+                />
+                <label for="email" class="active">email</label>
+              </div>
+              <div class="input-field">
+                <textarea
+                  type="message"
+                  name="message"
+                  id="message"
+                  class="materialize-textarea validate"
+                  required
+                ></textarea>
+                <label for="message" class="active">message</label>
+              </div>
+              <div class="input-field">
+                <div data-netlify-recaptcha="true"></div>
+              </div>
+              <div class="input-field">
+                <input
+                  type="submit"
+                  class="btn waves-effect waves-light black contact-button"
+                />
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
     <script src="materialize.min.js"></script>
-</body>
-
+  </body>
 </html>
